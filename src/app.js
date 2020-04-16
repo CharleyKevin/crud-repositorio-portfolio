@@ -10,8 +10,6 @@ app.use(cors());
 
 const repositories = [];
 
-const like = [];
-
 app.get("/repositories", (request, response) => {
 
 if(repositories == 0){
